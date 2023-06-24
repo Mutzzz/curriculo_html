@@ -107,8 +107,7 @@ table{
     
 }
 
-.xp-table{
-    
+.xp-table{    
     margin-top: 20px;
     width: 80%;
 }
@@ -117,7 +116,7 @@ table{
     color: #fff;
     font-size: 30px;
     background-color:rgba(148,212,233,1) ;
-    width: 80%;    
+    width: 89%;    
 }
 
 .xp b{
@@ -125,12 +124,8 @@ table{
 }
 
 .escolaridade article{
-    position: absolute;
-    top: 17%;
-    left: 55%;
-    font-size: 20px;
-    
-    
+    margin-left: 10%;
+    margin-top: 1%;
 }
 
 .escolaridade article footer{
@@ -141,7 +136,7 @@ table{
     color: #fff;
     font-size: 30px;
     background-color:rgba(148,212,233,1) ;
-    width: 100%;
+    width: 89%;
 }
 
 .rodape {
@@ -181,6 +176,7 @@ table {
     margin-left: 5%;
 }
 }
+
 
 
 
