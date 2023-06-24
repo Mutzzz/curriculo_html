@@ -1,5 +1,4 @@
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -16,15 +15,16 @@ header {
     justify-content: center;
     margin-bottom: 40px;
     font-size: 20px;
+
     
 }
 
 .container{
-    margin-left: 330px;
+    margin-left: 10%;
     background-color: #fff;
     border-radius: 5px;
-    padding: 60px;
-    width: 60%;
+    padding: 5%;
+    width: 80%;
     align-items: center;
     color: #2b344b;
 }
@@ -81,13 +81,13 @@ table tbody td:last-child {
 }
 
 table{
-    width: 40%;
-    margin-left: 100px;
+    width: 30%;
+    margin-left: 10%;
 }
 
 .objetivo{
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 10%;
     width: 80%;
     font-size: 18px;
     
@@ -101,7 +101,7 @@ table{
 }
 
 .xp {
-    margin-left: 100px;
+    margin-left: 10%;
     margin-top: 20px;
     
     
@@ -111,16 +111,13 @@ table{
     
     margin-top: 20px;
     width: 80%;
-    
-    
-    
 }
 
 .xp h2{
     color: #fff;
     font-size: 30px;
     background-color:rgba(148,212,233,1) ;
-    width: 88%;    
+    width: 80%;    
 }
 
 .xp b{
@@ -128,31 +125,62 @@ table{
 }
 
 .escolaridade article{
-    position: relative;
-    bottom: 1865px;
-    margin-left: 600px;
+    position: absolute;
+    top: 17%;
+    left: 55%;
     font-size: 20px;
+    
     
 }
 
 .escolaridade article footer{
     font-size: 15px;
-    margin-top: 5px;
 }
 
 .escolaridade article h2{
     color: #fff;
     font-size: 30px;
     background-color:rgba(148,212,233,1) ;
-    width: 76%;
+    width: 100%;
 }
 
 .rodape {
-    margin-left: 100px;
-    position: relative;
+    margin-left: 10%;
     bottom: 80px;
+    margin-top: 2%;
 }
 
+@media screen and (max-width: 768px) {
+.container {
+    margin-left: 5%;
+    padding: 10px;
+    width: 90%;
+}
+
+table {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.objetivo {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.xp {
+    margin-left: 5%;
+}
+
+.escolaridade article {
+    position: static;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.rodape {
+    margin-left: 5%;
+}
+}
 
 
 
