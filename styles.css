@@ -15,8 +15,6 @@ header {
     justify-content: center;
     margin-bottom: 40px;
     font-size: 20px;
-
-    
 }
 
 .container{
@@ -123,6 +121,11 @@ table{
     font-size: 18px;
 }
 
+.escolaridade p{
+    margin-top: 1vh;
+
+}
+
 .escolaridade article{
     margin-left: 10%;
     margin-top: 1%;
@@ -130,6 +133,7 @@ table{
 
 .escolaridade article footer{
     font-size: 15px;
+    margin-top: 0.3vh;
 }
 
 .escolaridade article h2{
